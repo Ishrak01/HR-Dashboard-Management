@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import AyyKori from "../assets/AyyKori.png";
 
 
 
@@ -32,7 +31,7 @@ const Navbar = () => {
   return (
     <div className='text-black flex justify-between mx-[100px] p-5  items-center'>
       <div>
-        <img className='h-[40px] w-[150x]' src={AyyKori} />
+        <p1 className="text-[#11998e] font-extrabold">Hasin Ishrak</p1>
       </div>
       <div className='font-semibold'>Hlw good {timeOfDay}</div>
       <div class="flex items-center border border-gray-300 rounded-md px-4 py-2">
